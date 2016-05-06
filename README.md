@@ -6,7 +6,7 @@ Estructura:
 - EAS. Contenedor de proyectos Maven
        - EAS-ear. Contenedor de los módulos de negocio
        - EAS-ejb. Implementación de los EJBs (Facades)
-       - EAS-model. Implementación de los EJBs(Entities)
+       - EAS-model. Implementación de los EJBs (Entities)
        - EAS-services. Interfases locales de los EJBs
        - EAS-rest. Subcontenedor de proyectos Maven
               - EAS-rest-ear. Contenedor de los módulos cliente
