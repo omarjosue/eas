@@ -5,16 +5,14 @@ Estructura:
 
 - EAS. Carpeta principal que contiene los proyectos Maven
        - EAS-ear. Contenedor de los módulos de negocio
-       		   + EAS-ejb
-                  + EAS-model
-                  + EAS-services
+              - EAS-ejb
+              - EAS-model
+              - EAS-services
        - EAS-rest. Carpeta secundaria que contiene los proyectos Maven
-                  + EAS-rest-ear. Contenedor del consumidor y cliente web
-                  + EAS-rest-ejb
-                  + EAS-app
-- DB. Diagrama Entidad-Relación y Estructura de Datos
-- Screenshots. Imágenes de la estructura del proyecto y configuraciones
-
+              - EAS-rest-ear. Contenedor del consumidor y cliente web
+              - EAS-rest-ejb
+              - EAS-app
+- dump. Estructura de Datos
 
 =================
 Especificaciones:
