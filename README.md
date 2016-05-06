@@ -9,6 +9,7 @@ Estructura:
        - EAS-model. Implementación de los Entity (JPA)
        - EAS-services. Interfases locales de los EJBs
        - EAS-rest. Subcontenedor de proyectos Maven
+       - 
               * EAS-rest-ear. Contenedor de los módulos cliente
               * EAS-rest-ejb. Implementación de los servicios REST (Stateless)
               *      EAS-app. Módulo web (MVC) con JAX-RS
