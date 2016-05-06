@@ -3,15 +3,15 @@
 Estructura:
 ===========
 
-- EAS. Carpeta principal que contiene los proyectos Maven
+- EAS. Contenedor de proyectos Maven
        - EAS-ear. Contenedor de los módulos de negocio
-              - EAS-ejb
-              - EAS-model
-              - EAS-services
-       - EAS-rest. Carpeta secundaria que contiene los proyectos Maven
-              - EAS-rest-ear. Contenedor del consumidor y cliente web
-              - EAS-rest-ejb
-              - EAS-app
+       - EAS-ejb. Implementación de los EJBs (Facades)
+       - EAS-model. Implementación de los Entity (JPA)
+       - EAS-services. Interfases locales de los EJBs
+       - EAS-rest. Subcontenedor de proyectos Maven
+              - EAS-rest-ear. Contenedor de los módulos cliente
+              - EAS-rest-ejb. Implementación de los servicios REST (Stateless)
+              - EAS-app. Módulo web (MVC) con JAX-RS
 - dump. Estructura de Datos
 
 =================
