@@ -9,17 +9,17 @@ Estructura:
        - EAS-model. Implementación de los Entity (JPA)
        - EAS-services. Interfases locales de los EJBs
        - EAS-rest. Subcontenedor de proyectos Maven
-       -      EAS-rest-ear. Contenedor de los módulos cliente
-       -      EAS-rest-ejb. Implementación de los servicios REST (Stateless)
-       -      EAS-app. Módulo web (MVC) con JAX-RS
+       *      EAS-rest-ear. Contenedor de los módulos cliente
+       *      EAS-rest-ejb. Implementación de los servicios REST (Stateless)
+       *      EAS-app. Módulo web (MVC) con JAX-RS
 - dump. Esquema de la base de datos
 
 =================
 Especificaciones:
 =================
 
-Los módulos fueron creados con el IDE NetBeans 8.1 y JDK 1.8, para ser desplegados en un servidor de aplicaciones JBoss EAP 6.4, bajo la especificación JEE 6
+* Los módulos fueron creados con NetBeans 8.1 IDE y JDK 1.8, para ser desplegados en un servidor de aplicaciones JBoss EAP 6.4, con especificación JEE 6
 
-La estructura de datos fue creada para el motor de base de datos MySQL 5.6.17-ndb-7.3.5-cluster-gpl
+* La estructura de datos fue creada para el motor de base de datos MySQL 5.6.17-ndb-7.3.5-cluster-gpl
 
-El controlador JDBC utilizado fue mysql-connector-java-5.1.23-bin.jar
+* El controlador JDBC utilizado fue mysql-connector-java-5.1.23-bin.jar
