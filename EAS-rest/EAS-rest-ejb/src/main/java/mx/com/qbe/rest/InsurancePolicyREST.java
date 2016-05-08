@@ -20,7 +20,7 @@ import mx.com.qbe.eas.services.InsurancePolicyFacadeLocal;
 @Stateless
 public class InsurancePolicyREST{
 
-    @EJB
+    @EJB (mappedName="InsurancePolicyFacade")
     private InsurancePolicyFacadeLocal insurancePolicyBean;
 
     @POST
