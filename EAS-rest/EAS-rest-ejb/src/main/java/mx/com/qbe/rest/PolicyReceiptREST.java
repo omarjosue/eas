@@ -20,7 +20,7 @@ import mx.com.qbe.eas.services.PolicyReceiptFacadeLocal;
 @Stateless
 public class PolicyReceiptREST{
 
-    @EJB
+    @EJB (mappedName="PolicyReceiptFacade")
     private PolicyReceiptFacadeLocal policyReceiptBean;
 
     @POST
