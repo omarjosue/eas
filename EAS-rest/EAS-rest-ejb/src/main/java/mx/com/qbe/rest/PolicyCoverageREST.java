@@ -20,7 +20,7 @@ import mx.com.qbe.eas.services.PolicyCoverageFacadeLocal;
 @Stateless
 public class PolicyCoverageREST{
 
-    @EJB
+    @EJB (mappedName="PolicyCoverageFacade")
     private PolicyCoverageFacadeLocal policyCoverageBean;
 
     @POST
