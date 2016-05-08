@@ -15,7 +15,7 @@ import mx.com.qbe.eas.services.CoverageFacadeLocal;
  *
  * @author omarjosue
  */
-@Stateless
+@Stateless (name="CoverageFacade")
 public class CoverageFacade extends AbstractFacade<Coverage> implements CoverageFacadeLocal {
 
     @PersistenceContext(unitName = "mx.com.qbe_EAS-ejb_ejb_1.0-SNAPSHOTPU")
