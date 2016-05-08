@@ -15,7 +15,7 @@ import mx.com.qbe.eas.services.InsurancePolicyFacadeLocal;
  *
  * @author omarjosue
  */
-@Stateless
+@Stateless (name="InsurancePolicyFacade")
 public class InsurancePolicyFacade extends AbstractFacade<InsurancePolicy> implements InsurancePolicyFacadeLocal {
 
     @PersistenceContext(unitName = "mx.com.qbe_EAS-ejb_ejb_1.0-SNAPSHOTPU")
