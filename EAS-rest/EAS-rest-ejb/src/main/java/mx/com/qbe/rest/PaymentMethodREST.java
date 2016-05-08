@@ -20,7 +20,7 @@ import mx.com.qbe.eas.services.PaymentMethodFacadeLocal;
 @Stateless
 public class PaymentMethodREST{
 
-    @EJB
+    @EJB (mappedName="PaymentMethodFacade")
     private PaymentMethodFacadeLocal paymentMethodBean;
 
     @POST
