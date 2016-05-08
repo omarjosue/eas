@@ -15,7 +15,7 @@ import mx.com.qbe.eas.services.PaymentMethodFacadeLocal;
  *
  * @author omarjosue
  */
-@Stateless
+@Stateless (name="PaymentMethodFacade")
 public class PaymentMethodFacade extends AbstractFacade<PaymentMethod> implements PaymentMethodFacadeLocal {
 
     @PersistenceContext(unitName = "mx.com.qbe_EAS-ejb_ejb_1.0-SNAPSHOTPU")
