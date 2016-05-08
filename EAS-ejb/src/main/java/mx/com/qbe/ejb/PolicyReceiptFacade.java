@@ -15,7 +15,7 @@ import mx.com.qbe.eas.services.PolicyReceiptFacadeLocal;
  *
  * @author omarjosue
  */
-@Stateless
+@Stateless (name="PolicyReceiptFacade")
 public class PolicyReceiptFacade extends AbstractFacade<PolicyReceipt> implements PolicyReceiptFacadeLocal{
 
     @PersistenceContext(unitName = "mx.com.qbe_EAS-ejb_ejb_1.0-SNAPSHOTPU")
