@@ -20,7 +20,7 @@ import mx.com.qbe.eas.services.CoverageFacadeLocal;
 @Stateless
 public class CoverageREST{
 
-    @EJB
+    @EJB (mappedName="CoverageFacade")
     private CoverageFacadeLocal coverageBean;
 
     @POST
